@@ -1,0 +1,36 @@
+{
+  "name": "Enrichment Alert API Automation Supertest Framework",
+  "recipients": [
+    "csangeeth@wiley.com",
+    "pgeeganage@wiley.com",
+    "asenanayak@wiley.com",
+    "akathriara@wiley.com",
+    "yhewagama@wiley.com"
+  ],
+  "lastAlertStatus": "ACTIVE",
+  "alertType": "enrichment_alert",
+  "hidePublishedArticles": true,
+  "included": true,
+  "rules": [
+    {
+      "index": 0,
+      "publicationDois": [
+        "10.1111/(ISSN)1478-0542",
+        "10.1111/(ISSN)1749-8171"
+      ],
+      "concepts": [
+        "a80efe3c-a507-404c-a890-7c75f0755d0e",
+        "fcc9f46a-e4f8-4931-85ce-ba5292c58137",
+        "b8e81924-0be3-4714-8cbe-6dc86cce3870",
+        "f1aaf642-a47c-4ec4-8e43-d156d20a02af",
+        "ec379ed5-a2f2-4e91-9711-47a7d68c908b",
+        "cb031e1a-eb8f-41e9-8fcb-92dd3ee6cef7",
+        "1baea3ec-83ee-48ef-a168-09a7d19b81bf",
+        "1143856d-5a6a-47fa-9873-bdc6960a3edb",
+        "d9e9ea2e-3feb-4fca-85fa-fa952d8f2502"
+      ],
+      "taxonomyId": "47c82721-9040-4e13-a084-e7b5d27574ab",
+      "status": "ACTIVE"
+    }
+  ]
+}

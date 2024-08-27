@@ -1,0 +1,34 @@
+{
+  "alertType": "counter_alert",
+  "name": "Counter Alert API Automation Supertest Framework",
+  "recipients": [
+    "csangeeth@wiley.com"
+  ],
+  "lastAlertStatus": "ACTIVE",
+  "rules": [
+    {
+      "index": 0,
+      "journalIssn": "1474-9726",
+      "contentStatus": "ACCEPTED",
+      "count": 1,
+      "currentCount": 0,
+      "status": "ACTIVE"
+    },
+    {
+      "index": 1,
+      "journalIssn": "1474-9726",
+      "contentStatus": "EARLY_VIEW",
+      "count": 1,
+      "currentCount": 0,
+      "status": "ACTIVE"
+    },
+    {
+      "index": 2,
+      "journalIssn": "1474-9726",
+      "contentStatus": "IN_ISSUE",
+      "count": 1,
+      "currentCount": 0,
+      "status": "ACTIVE"
+    }
+  ]
+}

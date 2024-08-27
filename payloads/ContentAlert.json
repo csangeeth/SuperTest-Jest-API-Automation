@@ -1,0 +1,49 @@
+{
+  "alertType": "content_alert",
+  "name": "Content Alert API Automation Supertest Framework",
+  "recipients": [
+    "csangeeth@wiley.com"
+  ],
+  "lastAlertStatus": "ACTIVE",
+  "threshold": 0,
+  "hidePublishedArticles": true,
+  "rules": [
+    {
+      "searchRegion": "ARTICLE_TITLE",
+      "score": 1,
+      "textToSearch": "Title",
+      "index": 0
+    },
+    {
+      "searchRegion": "ARTICLE_ABSTRACT",
+      "score": 1,
+      "textToSearch": "significant",
+      "index": 1
+    },
+    {
+      "searchRegion": "ARTICLE_BODY",
+      "score": 1,
+      "textToSearch": "body",
+      "index": 2
+    },
+    {
+      "searchRegion": "ARTICLE_KEYWORD",
+      "score": 1,
+      "textToSearch": "CFD",
+      "index": 3
+    },
+    {
+      "searchRegion": "ARTICLE_DOI",
+      "score": 1,
+      "textToSearch": "10.1002/pits.22139",
+      "index": 4
+    },
+    {
+      "searchRegion": "JOURNAL_TITLE",
+      "score": 1,
+      "textToSearch": "Psychology in the Schools",
+      "index": 5
+    }
+  ],
+  "notifications": []
+}
